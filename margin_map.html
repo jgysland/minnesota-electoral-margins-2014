@@ -1,0 +1,30 @@
+<style>
+.mesh {
+  fill: none;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  z-index: 2;
+}
+.precincts {
+  stroke-width: 0;
+}
+#mapdiv {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+}
+.subheader p, h3, h6 {
+  text-align: center;
+}
+</style>
+<p class="subheader">
+<h3>Difference in Vote Share Between DFL Candidates for Statewide Offices and DFL Candidates for State House of Representatives</h3>
+<h6>Zoom for detail. Precinct opacity is a function of vote share.</h6>
+</p>
+<div id='mapdiv'></div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://jgys.land/data_viz/margin_map/mn_tot.js"></script>
