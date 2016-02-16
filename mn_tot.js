@@ -40,8 +40,8 @@ svg
 	.call(zoom.event);
 
 queue()
-    .defer(d3.json, "../data_viz/margin_map/mn_min.json")
-    .defer(d3.csv, "../data_viz/margin_map/data.csv")
+    .defer(d3.json, "/mn_min.json")
+    .defer(d3.csv, "/data.csv")
     .await(ready);
     
 function ready (error, mn, data) {
