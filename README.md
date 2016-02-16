@@ -7,7 +7,7 @@ This is a map of precinct-level differences in vote share between the DFL's stat
 
 ### Usage
 
-Clone this repo, `cd` into it, and run `python -m SimpleHTTPServer 8081` (or use your preferred web-hosting package). Then just point your browser at [http://localhost:8081/]().
+Clone this repo, `cd` into it, and run `python -m SimpleHTTPServer 8081` (or use your preferred web-hosting package). Then just point your browser at [http://localhost:8081/](http://localhost:8081/).
 
 ### To-Do
 
